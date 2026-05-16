@@ -1,12 +1,16 @@
-import 'react-native-gesture-handler';
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import AppNavigator from './src/navigation/AppNavigator';
+import { View, Text } from 'react-native';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <AppNavigator />
-    </NavigationContainer>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <Text>Hello Campus Connect 🚀</Text>
+    </View>
   );
 }
